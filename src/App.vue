@@ -1,7 +1,4 @@
 <script setup>
-    import Home from './views/Home.vue'
-
-
 </script>
 
 <template>
@@ -14,12 +11,10 @@
             <router-link to="/" class="text-dark text-decoration-none">               
                 <b class="fs-4">Memo Application</b>
             </router-link>
-            
-
         </header>
 
         <main>
-            <home></home><router-view /> 
+            <router-view></router-view>
         </main>
 
         <footer class="pt-4 mt-4 border-top">

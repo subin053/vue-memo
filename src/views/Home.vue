@@ -16,7 +16,6 @@
     storageService.delItem(id);
     state.memo = storageService.getItems();
   }
-  
   </script>
   
   <template>
